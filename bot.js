@@ -21,7 +21,7 @@ socket.emit("user joined", "←", "red")
 socket.emit("messafe", "leavebot")
 socket.on('user left', function (data) {
     //  if (data.toString().toLowerCase() == "?bot, hey") {
-      socket.emit("message",data.nick + "has left teh trollbox");)
+      socket.emit("message",data.nick + "has left teh trollbox"))
     //  }
       }
 socket.on('message', function (data) {
